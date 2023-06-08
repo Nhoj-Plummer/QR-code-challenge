@@ -1,0 +1,15 @@
+.qr__code {
+  display: flex;
+}
+
+.qr__code-container {
+  height: 80vh;
+  max-width: 1800px;
+  border: 1px solid;
+}
+
+.qr__code-content {
+  border: 1px solid;
+  height: 500px;
+  max-width: 400px;
+}

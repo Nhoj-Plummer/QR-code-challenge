@@ -3,9 +3,9 @@ import './code.css'
 
 function Code() {
   return (
-    <div className='qr-code-container'>
-      <div className='qr-code'>
-        
+    <div className='qr__code-container section_padding'>
+      <div className='qr__code-content'>
+
       </div>
     </div>
   )
