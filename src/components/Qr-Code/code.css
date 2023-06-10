@@ -1,5 +1,6 @@
 .qr__code {
   display: flex;
+  flex-direction: column;
 }
 
 .qr__code-container {
@@ -32,4 +33,22 @@
   border: 1px solid;
   max-width: 300px;
   text-align: center;
+}
+
+.qr__code-text h2 {
+  font-size: 20px;
+  font-family: var(--font-family);
+  color: var(--color-text);
+}
+
+.qr__code-subtext {
+  margin: auto;
+  border: 1px solid;
+  max-width: 250px;
+  text-align: center;
+}
+.qr__code-subtext p {
+  font-size: 13px;
+  font-family: var(--font-family);
+  color: var(--color-subtext);
 }
