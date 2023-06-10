@@ -1,4 +1,5 @@
 import React from "react"
+import { qrImage } from "../Qr-Code/imports"
 import "./code.css"
 
 function Code() {
@@ -6,7 +7,7 @@ function Code() {
     <div className="qr__code-container section_padding">
       <div className="qr__code-content">
         <div className="qr__code-image">
-          <img src="./assets/qr-code.png" alt="code" />
+          <img src={qrImage} alt="code" />
         </div>
         <div className="qr__code-text">
           <h2>Improve your front-end skills by building projects</h2>
