@@ -24,7 +24,6 @@
 /*qr image start */
 .qr__code-image {
   margin: 1rem;
-  border: 1px solid;
   border-radius: 7px;
 }
 
@@ -39,7 +38,6 @@
 /* qr text start */
 .qr__code-text {
   margin: auto;
-  border: 1px solid;
   max-width: 300px;
   text-align: center;
 }
@@ -54,7 +52,6 @@
 /*qr subtext start */
 .qr__code-subtext {
   margin: auto;
-  border: 1px solid;
   max-width: 250px;
   text-align: center;
 }
